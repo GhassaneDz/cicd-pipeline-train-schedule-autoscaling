@@ -45,8 +45,8 @@ spec:
           requests:
             cpu: 200m
             
- ---
- apiVersion: autoscaling/v2beta1
+---
+apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
   name: train-schedule
